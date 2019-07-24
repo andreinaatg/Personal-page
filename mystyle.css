@@ -1,0 +1,29 @@
+h1{
+  color: GhostWhite;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+p{
+  color:GhostWhite;
+  font-size: 25px;
+  font-family: 'Source Code Pro', monospace;
+
+}
+h2{
+  color:GhostWhite;
+  font-size: 45px;
+  font-family: 'Source Code Pro', monospace;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  color: GhostWhite;
+  font-size: 25px;
+  font-family: 'Source Code pro', monospace;
+}
+ 
