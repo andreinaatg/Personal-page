@@ -2,18 +2,31 @@
 <html>
   <head>
     <link rel="stylesheet" href="mystyle.css">
-   <script src="samplescrip.js"></script>
-    </<head>
+   <script src="webpage.js"></script>
+  </head>
   <body>
-      <h1>All about me</h1>
+      <button class="tablink" onclick="openPage('Home', this,'#B0C4DE')" id="defaultOpen">Home</button> 
+      <button class="tablink" onclick="openPage('Info', this, '#B0C4DE')">Info</button>
+      <button class="tablink" onclick="openPage('Likes', this, '#B0C4DE')">Likes</button>
+      <button class="tablink" onclick="openPage('Facts', this,'#B0C4DE')">Facts</button>  
+      <br>
+      <div id="Home" class="tabcontent">
+       <div class="bg-image"></div>
+       <div class="bg-text">
+    <h1 style="font-size:70px"> All about me</h1>
     <body style="background-image:url('https://ih1.redbubble.net/image.398700394.1550/flat,1000x1000,075,f.u2.jpg');">
-     <p> My name is Maria Torrealba, I'm from Venezuela and I moved to the United States when I was 13 years old </p>
-    <img src= "https://images.fineartamerica.com/images-medium-large-5/venezuela-watercolor-map-michael-tompsett.jpg"
-    alt="venezuela map outline" width="500" height="600">
-    <h2>Fun facts about me</h2>
-    <ul>
-      <li>I love BTS, like they are my favorite boyband 💯/💯 </li>
-      <li>I love cats and dogs 🐶🐱</li>
-      <li>I have a habit of cracking my knuckels</li>
-    </ul>
-  </body>
+    <p> Hey this is Maria, welcome to my personal webpage,
+       wanna know about me?just click on the top bar.😉
+    </p>
+    <img src="click.gif" alt="Click gif">
+        </div>
+      </div>
+      <div id="Info" class="tabcontent"></div>
+
+
+      <div id="Likes" class="tabcontent"></div>
+
+
+      <div id="Facts" class="tabcontent"></div>
+
+      </body>
